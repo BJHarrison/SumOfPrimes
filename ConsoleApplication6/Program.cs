@@ -20,8 +20,7 @@ namespace primes
                 running_total = running_total + prime;
                 //Console.WriteLine(prime);
             }
-            Console.WriteLine(running_total);
-            Console.ReadKey();
+            
             StreamWriter standardOutput = new StreamWriter(Console.OpenStandardOutput());
             standardOutput.AutoFlush = true;
             Console.SetOut(standardOutput);
