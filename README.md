@@ -1,0 +1,4 @@
+SumOfPrimes
+===========
+
+CodeEval challenge
